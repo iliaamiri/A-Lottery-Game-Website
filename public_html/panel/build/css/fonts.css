@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../../../fonts/Yekan.eot?#') format('eot'),
+    url('../../../fonts/Yekan.woff') format('woff'),
+    url('../../../fonts/Yekan.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family: 'nazanin';
+    src: url('../../../fonts/Nazanin.eot?#') format('eot'),
+    url('../../../fonts/Nazanin.woff') format('woff'),
+    url('../../../fonts/Nazanin.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
+body{
+    font-family: 'yekan';
+}
