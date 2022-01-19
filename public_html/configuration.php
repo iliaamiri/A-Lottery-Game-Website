@@ -20,12 +20,15 @@ foreach($requiredExtensions as $requiredExtension) {
     }
 }
 
-// DIR
-define('DIR_MODELS',"F:/xampp/htdocs/arash-project/witcher/app/model/");
-define('DIR_APPLICATION',"F:/xampp/htdocs/arash-project/witcher/app/");
+
+// root
 define('DIR_ROOT',"F:/xampp/htdocs/arash-project/");
-define('DIR_PUBLIC',"F:/xampp/htdocs/arash-project/public_html/");
-define('DIR_LOADER',"F:/xampp/htdocs/arash-project/witcher/app/autoloader.php");
+
+// DIR
+define('DIR_MODELS', DIR_ROOT . "witcher/app/model/");
+define('DIR_APPLICATION', DIR_ROOT . "witcher/app/");
+define('DIR_PUBLIC', DIR_ROOT . "public_html/");
+define('DIR_LOADER', DIR_ROOT . "witcher/app/autoloader.php");
 if (file_exists(DIR_ROOT) and file_exists(DIR_LOADER) and file_exists(DIR_MODELS) and file_exists(DIR_APPLICATION)) {
     require_once(DIR_LOADER);
     $witcher = new witcher();
